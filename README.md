@@ -74,16 +74,16 @@ The original CSV file is never modified by this application.
 ## Project Architecture
 ```
 Ecommerce-BI-Project/
-├── app.py                        ← Main Streamlit application (single file)
+├── SyedKasimPasha_EcommerceBI.py ← Main Streamlit application (single file)
 ├── global_ecommerce_sales.csv    ← Source dataset (read-only)
 ├── requirements.txt              ← Python dependencies
 ├── README.md                     ← This file
 └── Project_Report.docx           ← Full written project report
 ```
 
-### Application Structure (app.py)
+### Application Structure (SyedKasimPasha_EcommerceBI.py)
 ```
-app.py
+SyedKasimPasha_EcommerceBI.py
  ├── Configuration & CSS
  ├── Data Loading & Cleaning  (load_data)
  ├── Sidebar Filters          (build_sidebar)
@@ -107,7 +107,7 @@ app.py
 Place all files in the same directory:
 ```
 global_ecommerce_sales.csv
-app.py
+SyedKasimPasha_EcommerceBI.py
 requirements.txt
 README.md
 Project_Report.docx
@@ -141,11 +141,11 @@ python-docx>=1.1.0
 
 ## How to Run the Dashboard
 ```bash
-streamlit run app.py
+streamlit run SyedKasimPasha_EcommerceBI.py
 ```
 The dashboard will open automatically in your default browser at `http://localhost:8501`.
 
-Make sure `global_ecommerce_sales.csv` is in the same directory as `app.py`.
+Make sure `global_ecommerce_sales.csv` is in the same directory as `SyedKasimPasha_EcommerceBI.py`.
 
 ---
 
